@@ -4,7 +4,7 @@ from telethon import functions, types
 from telethon import TelegramClient
 from telethon import events
 import asyncio
-with TelegramClient('Login',api_id=2717155,api_hash="4f8329cb2062f68735701675aedc39ed") as client:
+with TelegramClient('Login',api_id=put your apid format int ,api_hash="put your api hash") as client:
      @client.on(events.NewMessage(pattern='(?i).*info'))
      async def get_list(event):
      	user_list = []
